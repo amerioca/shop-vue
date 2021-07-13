@@ -14,7 +14,7 @@
     <li class="list-group-item">Taxes: {{taxes | formatMoney}}</li>
 
     <li class="list-group-item">
-      <strong>Total:</strong>
+      <strong>Totalz:</strong>
       <strong v-if="!totalDiscount"> {{total | formatMoney}}</strong>
       <span v-if="totalDiscount">
         <strike> {{total + 100 | formatMoney}}</strike>
